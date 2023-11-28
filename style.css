@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .calculator {
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    max-width: 300px;
+    padding: 10px;
+  }
+  
+  #display {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 18px;
+  }
+  
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  #history {
+    margin-top: 10px;
+    font-size: 14px;
+  }
